@@ -27,7 +27,7 @@ Generator Prompt was created to help you create a prompt for your.
 
 ### Model download
 
-model automatically from[拥抱脸](https://huggingface.co/)Download, if the network is not good, you can download it manually[Baidu](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96)
+model automatically from[hug face](https://huggingface.co/)Download, if the network is not good, you can download it manually[Baidu](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96)
 
 -   offline download
     -   [Baidu](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96)Extraction code: mh96
