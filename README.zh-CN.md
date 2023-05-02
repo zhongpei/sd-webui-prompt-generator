@@ -2,7 +2,7 @@
 
 ## 自述文件翻译
 
--   [英语](README.en.md)
+-   [English](README.en.md)
 -   [简体中文](README.md)
 -   [日本人](README.ja.md)
 -   [俄语](README.ru.md)
@@ -41,7 +41,7 @@ Generator Prompt 的创建是为了帮助您为您的 .
 ## 设置
 
 -   `model type`
-    -   `normal`一般模式
+    -   `normal` 一般模式
     -   `anime`二次元
 -   `model device`
     -   `cpu`不占用显存、稍慢
