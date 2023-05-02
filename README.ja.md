@@ -30,7 +30,7 @@ Generator Prompt は、プロンプトの作成を支援するために作成さ
 から自動的にモデル化[ハグ顔](https://huggingface.co/)ダウンロード、ネットワークが良好でない場合は、手動でダウンロードできます[バイドゥ](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96)
 
 -   オフライン ダウンロード
-    -   [バイドゥ](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96)抽出コード：mh96
+    -   [バイドゥ](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96) 提取码: mh96
     -   に抽出`stable-diffusion-webui\models`
 
 -   モデル公式サイト
@@ -54,6 +54,6 @@ Generator Prompt は、プロンプトの作成を支援するために作成さ
     -   `zh`中文
     -   `jp`日文
     -   `ru`ロシア
--   `genertor temperature`生成温度、0.0 ～ 1.0、高いほどランダム
+-   `genertor temperature` 生成温度, 0.0-1.0,越高越随机
 
 ![img.png](./docs/setting.png)
