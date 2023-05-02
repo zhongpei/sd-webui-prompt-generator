@@ -25,6 +25,15 @@ Generator Prompt was created to help you create a prompt for your.
 
 ![ui.png](./docs/ui.png)
 
+### 模型下载
+
+[Baidu](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96) 提取码: mh96
+
+* 解压到`stable-diffusion-webui\models`
+  * anime-anything-promptgen-v2
+  * distilgpt2
+  * distilgpt2-stable-diffusion-v2
+
 ## settings
 
 * `model type`
