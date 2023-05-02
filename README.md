@@ -27,12 +27,16 @@ Generator Prompt was created to help you create a prompt for your.
 
 ### 模型下载
 
-[Baidu](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96) 提取码: mh96
+模型自动从[拥抱脸](https://huggingface.co/)下载，如果网络不好，可以手动下载[Baidu](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96)
 
-* 解压到`stable-diffusion-webui\models`
-  * anime-anything-promptgen-v2
-  * distilgpt2
-  * distilgpt2-stable-diffusion-v2
+* 离线下载
+  * [Baidu](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96) 提取码: mh96
+  * 解压到`stable-diffusion-webui\models`
+
+* 模型官网
+  * [anime-anything-promptgen-v2](https://huggingface.co/FredZhang7/anime-anything-promptgen-v2)
+  * [distilgpt2](https://huggingface.co/distilgpt2)
+  * [distilgpt2-stable-diffusion-v2](https://huggingface.co/FredZhang7/distilgpt2-stable-diffusion-v2)
 
 ## settings
 
