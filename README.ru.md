@@ -25,7 +25,7 @@
 
 ![ui.png](./docs/ui.png)
 
-### Загрузка модели
+### 模型下载
 
 модель автоматически из[обнять лицо](https://huggingface.co/)Скачать, если сеть плохая, можно скачать вручную[Байду](https://pan.baidu.com/s/1RRo30reGmhRzFlGrZG74tg?pwd=mh96)
 
@@ -48,12 +48,12 @@
     -   `cuda`использование памяти, быстро
 -   `translate `
     -   `none`не переводи
-    -   `google`Google Переводчик
+    -   `google` 谷歌翻译
     -   `youdao`Юдао перевод
 -   `translate from`
-    -   `zh` 中文
+    -   `zh`Китайский
     -   `jp`Японский
     -   `ru`Русский
--   `genertor temperature`Генерировать температуру, 0.0-1.0, чем выше, тем больше случайностей
+-   `genertor temperature` 生成温度, 0.0-1.0,越高越随机
 
 ![img.png](./docs/setting.png)
