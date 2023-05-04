@@ -239,7 +239,7 @@ def init_model(
 
 
 if __name__ == "__main__":
-    m = Model()
+    m = Model(base_dir=".")
     m.download_model(MODEL_NAME.get("anime"))
     m.init_model()
     output = m.gen_prompt("1 girl")
