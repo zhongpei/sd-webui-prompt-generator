@@ -35,12 +35,15 @@ def format_prompts(*prompts: list):
 
 
 def gen_prompt(*ui_prompts: list):
-    model = gen_init_model(
-        model_id=shared.opts.prompt_generator_zh_model_id,
-        device=shared.opts.prompt_generator_zh_model_device,
-        base_dir=scripts.basedir(),
-    )
-    model.temperature = shared.opts.prompt_generator_zh_temperature
+    if shared.opts.prompt_generator_zh_model_id == "none":
+        model = None
+    else:
+        model = gen_init_model(
+            model_id=shared.opts.prompt_generator_zh_model_id,
+            device=shared.opts.prompt_generator_zh_model_device,
+            base_dir=scripts.basedir(),
+        )
+        model.temperature = shared.opts.prompt_generator_zh_temperature
 
     result_list = []
 
@@ -53,8 +56,10 @@ def gen_prompt(*ui_prompts: list):
 
         prompt = prompt.strip()
         prompt = translate_prompt_one(prompt)
-
-        result = model.gen_prompt(prompt)
+        if model is None:
+            result = prompt
+        else:
+            result = model.gen_prompt(prompt)
         if result is None:
             result_list.append(prompt)
             print(f"gen prompt(empty): {prompt} --> {prompt}")
@@ -100,6 +105,7 @@ SETTINGS_SECTION = ("prompt_generator_zh", "Prompt Generator")
 
 def on_ui_settings():
     model_ids = list(MODEL_NAME.keys())
+    model_ids.append("none")
     shared.opts.add_option(
         "prompt_generator_zh_model_id",
         shared.OptionInfo(
